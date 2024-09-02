@@ -36,9 +36,9 @@ This exercise focuses on implementing the Apriori algorithm to discover associat
 - **Scripts**:
   - **main.py**: Script to execute the Apriori algorithm and generate association rules.
 
-### Project: Continuous Value Prediction with Random Forest
+### Project: DeltaG Value Prediction with Random Forest
 
-The project applies the Random Forest regression algorithm to predict continuous values for a given dataset:
+The project applies the Random Forest regression algorithm to predict DeltaG values for a given dataset:
 
 - **Final_Project.ipynb**: Jupyter notebook that walks through the steps of data preprocessing, model training, and evaluation using Random Forest regression.
 - **README.md**: Provides an overview of the project, explaining the approach and summarizing the results.
@@ -53,7 +53,7 @@ The project applies the Random Forest regression algorithm to predict continuous
 2. **Exercise 2 (Association Rule Learning with Apriori)**:
    - Navigate to the `2` subdirectory under `Exercises` and execute `main.py` to perform association rule mining on the market basket data.
 
-3. **Final Project (Continuous Value Prediction with Random Forest)**:
+3. **Final Project (DeltaG Value Prediction with Random Forest)**:
    - Open and run `Final_Project.ipynb` in Jupyter Notebook or Google Colab to follow the regression analysis workflow.
 
 ## Conclusion

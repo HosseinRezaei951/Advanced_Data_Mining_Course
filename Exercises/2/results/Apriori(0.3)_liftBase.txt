@@ -1,0 +1,81 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 1 -C 1.1 -D 0.05 -U 1.0 -M 0.3 -S -1.0 -c -1
+Relation:     new_data
+Instances:    1000
+Attributes:   40
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+              13
+              14
+              15
+              16
+              17
+              18
+              19
+              20
+              21
+              22
+              23
+              24
+              25
+              26
+              27
+              28
+              29
+              30
+              31
+              32
+              33
+              34
+              35
+              36
+              37
+              38
+              39
+              40
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.7 (700 instances)
+Minimum metric <lift>: 1.1
+Number of cycles performed: 6
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 28
+
+Size of set of large itemsets L(2): 161
+
+Size of set of large itemsets L(3): 294
+
+Size of set of large itemsets L(4): 197
+
+Size of set of large itemsets L(5): 34
+
+Best rules found:
+
+ 1. 11=No 850 ==> 22=No 39=No 717    conf:(0.84) < lift:(1.13)> lev:(0.08) [81] conv:(1.6)
+ 2. 22=No 39=No 748 ==> 11=No 717    conf:(0.96) < lift:(1.13)> lev:(0.08) [81] conv:(3.51)
+ 3. 11=No 23=No 835 ==> 22=No 39=No 704    conf:(0.84) < lift:(1.13)> lev:(0.08) [79] conv:(1.59)
+ 4. 22=No 39=No 748 ==> 11=No 23=No 704    conf:(0.94) < lift:(1.13)> lev:(0.08) [79] conv:(2.74)
+ 5. 11=No 850 ==> 22=No 23=No 39=No 704    conf:(0.83) < lift:(1.13)> lev:(0.08) [79] conv:(1.53)
+ 6. 22=No 23=No 39=No 735 ==> 11=No 704    conf:(0.96) < lift:(1.13)> lev:(0.08) [79] conv:(3.45)
+ 7. 11=No 22=No 801 ==> 39=No 717    conf:(0.9) < lift:(1.12)> lev:(0.08) [78] conv:(1.91)
+ 8. 39=No 797 ==> 11=No 22=No 717    conf:(0.9) < lift:(1.12)> lev:(0.08) [78] conv:(1.96)
+ 9. 11=No 22=No 23=No 787 ==> 39=No 704    conf:(0.89) < lift:(1.12)> lev:(0.08) [76] conv:(1.9)
+10. 39=No 797 ==> 11=No 22=No 23=No 704    conf:(0.88) < lift:(1.12)> lev:(0.08) [76] conv:(1.81)
+
